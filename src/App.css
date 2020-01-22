@@ -1,0 +1,61 @@
+.app-wrapper {
+  display: grid;
+  grid-template-areas: 
+    "header header"
+    "nav content";
+  grid-template-rows: 60px 100vh;
+  grid-template-columns: 2fr 10fr;
+/*  grid-gap: 10px;*/
+}
+
+.header {
+  grid-area: header;
+  background-color: #cd4236;
+  margin-bottom: 10px;
+}
+.nav {
+  grid-area: nav;
+  background-color:#bab3b2;
+}
+.nav ul li {
+  padding: 7px;
+}
+.nav a {
+  color: #000;
+  transition: 0.3s ease;
+}
+.nav a:hover {
+  color: #ae323b;
+}
+.content {
+  display: grid;
+  grid-area: content;
+  background-color: #988177;
+  grid-template-areas:
+    "content-header content-header"
+    "content-logo content-details"
+    "content-text content-text";
+  grid-template-rows: 60px 20vh ;
+  grid-template-columns: 2fr 10fr;
+  margin-left: 10px;  
+}
+ .content > * {
+    border: 1px solid #fff;
+    padding: 5px;
+ }
+.content-header {
+  grid-area: content-header;
+/*  border: 1px solid #fff;*/
+  background-color: #ae323b;
+}
+.content-logo {
+  grid-area: content-logo;
+/*  border: 1px solid #fff;*/
+}
+.content-details {
+  grid-area: content-details;
+/*  border: 1px solid #fff;*/
+}
+.content-text {
+   grid-area: content-text;
+}
