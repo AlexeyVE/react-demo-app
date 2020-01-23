@@ -1,18 +1,29 @@
+/*helpers*/
+.border {
+  border:1px solid #fff;
+}
+.padding {
+  padding: 7px;
+}
+.active {
+  color: #fff !important;
+}
+/*App*/
 .app-wrapper {
   display: grid;
   grid-template-areas: 
     "header header"
-    "nav content";
-  grid-template-rows: 60px 100vh;
+    "nav profile";
+  grid-template-rows: 60px auto;
   grid-template-columns: 2fr 10fr;
-/*  grid-gap: 10px;*/
 }
-
+/*header*/
 .header {
   grid-area: header;
   background-color: #cd4236;
   margin-bottom: 10px;
 }
+/*nav*/
 .nav {
   grid-area: nav;
   background-color:#bab3b2;
@@ -27,35 +38,39 @@
 .nav a:hover {
   color: #ae323b;
 }
-.content {
+/*profile*/
+.profile {
   display: grid;
-  grid-area: content;
+  grid-area: profile;
   background-color: #988177;
   grid-template-areas:
-    "content-header content-header"
-    "content-logo content-details"
-    "content-text content-text";
-  grid-template-rows: 60px 20vh ;
+    "profile-header profile-header"
+    "profile-logo profile-details"
+    "posts posts";
+  grid-template-rows: 60px auto auto;
   grid-template-columns: 2fr 10fr;
   margin-left: 10px;  
 }
- .content > * {
-    border: 1px solid #fff;
+ .profile > div {
     padding: 5px;
  }
-.content-header {
-  grid-area: content-header;
-/*  border: 1px solid #fff;*/
+.profile-header {
+  grid-area: profile-header;
   background-color: #ae323b;
 }
-.content-logo {
-  grid-area: content-logo;
-/*  border: 1px solid #fff;*/
+.profile-logo {
+  grid-area: profile-logo;
+
 }
-.content-details {
-  grid-area: content-details;
-/*  border: 1px solid #fff;*/
+.profile-details {
+  grid-area: profile-details;
+
 }
-.content-text {
-   grid-area: content-text;
+/*Posts*/
+.posts {
+  grid-area: posts;
+  background-color: #ccc;
+}
+.post-text {
+
 }
