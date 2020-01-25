@@ -6,8 +6,9 @@
   padding: 7px;
 }
 .active {
-  color: #fff !important;
+  color: #e52325 !important;
 }
+
 /*App*/
 .app-wrapper {
   display: grid;

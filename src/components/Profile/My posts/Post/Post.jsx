@@ -1,10 +1,10 @@
 import React from "react";
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div className="current-post">
-      <h3 className="current-post-name">Post name1</h3>  
-      <p className="current-post-text">Post text 1</p>
+      <h4 className="current-post-name">{props.title}</h4>  
+      <p className="current-post-text">{props.body}</p>
     </div>
   )
 }

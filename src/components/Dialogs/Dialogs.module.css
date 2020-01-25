@@ -1,0 +1,13 @@
+.dialogs {
+  display: grid;
+  grid-template-columns:4fr 8fr;
+}
+.dialogs_items {
+  border:1px solid #ccc;
+}
+.message {  
+  padding: 5px;
+}
+.messages {
+  border:1px solid #ccc;
+}

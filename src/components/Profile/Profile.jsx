@@ -1,19 +1,12 @@
 import React from "react";
-import MyPosts from "./My posts/MyPosts"
+import MyPosts from "./My posts/MyPosts";
+import ProfileInfo from './ProfileInfo/ProfileInfo';
 
-const Profile = () => {
+const Profile = (props) => {
   return (
     <div className = "profile">
-      <div className = "profile-header">
-        Profile header  
-      </div>
-      <div className = "profile-logo border">          
-        <img src = "" alt = "Profile avatar"/>
-      </div>
-      <div className = "profile-details border">
-        Profile details
-      </div>
-      <MyPosts />
+      <ProfileInfo />
+      <MyPosts posts = { props.posts}/>
     </div>
   )
 }
