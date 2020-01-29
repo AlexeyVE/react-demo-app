@@ -1,13 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import style from './Message.module.css';
 
-const Message = (props) => {
+const Message = ( props ) => {
   return (
-    <div className={ style.message }>
-      <NavLink to = "">{ props.text }</NavLink>
+    <div className = { style.message }>
+      { props.text }
     </div>
-    );
+  );
 }
 
 export default Message;
