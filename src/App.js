@@ -25,7 +25,12 @@ function App( props ) {
         />      
         <Route path = "/dialogs" 
                render = { () => <Dialogs 
-                                  state = { props.state.dialogsPage }/>}/>   {/*exact */}
+                                  state = { props.state.dialogsPage }
+                                  addMessage = { props.addMessage }
+                                  updateNewMessageText = { props.updateNewMessageText }
+                                />
+                        }
+        />   {/*exact */}
         <Route path = "/news" component = { News }/>
         <Route path = "/music" component = { Music }/>
         <Route path = "/settings" component = { Settings }/>

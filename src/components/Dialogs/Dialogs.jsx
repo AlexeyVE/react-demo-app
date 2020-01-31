@@ -4,24 +4,26 @@ import DialogItem from'./Dialog/DialogItem';
 import Message from'./Message/Message';
 
 const Dialogs = ( props ) => {
-  let newMessage = React.createRef();
-  let addMessage = () => {
-    let text = newMessage.current.value
-    alert( text )
-    return newMessage.current.value = ''
-  } 
-  let dialogsElements = props.state.dialogs.map( dialog => 
+
+  let newMessageText = React.createRef()
+
+  let updateNewMessage = () => 
+      props.updateNewMessageText ( newMessageText.current.value )
+
+  let addMessage = () => props.addMessage()
+
+  let dialogsElements = props.state.dialogs.map( ( dialog,index ) => 
                                       <DialogItem 
                                         name = { dialog.name } 
                                         id = { dialog.id } 
-                                        key = { dialog.id }
+                                        key = { index }
                                       />
                                     )
-  let messagesElements = props.state.messages.map( message =>
+  let messagesElements = props.state.messages.map( ( message,index ) =>
                                         <Message 
                                           text= { message.message } 
                                           id = { message.id } 
-                                          key={ message.id }
+                                          key = { index }
                                         />
                                       )
   return (    
@@ -29,7 +31,9 @@ const Dialogs = ( props ) => {
     <div className = { style.dialogs_items }>
       { dialogsElements }
       <div>
-        <textarea ref = { newMessage }/>
+        <textarea onChange = { updateNewMessage } 
+                  ref = { newMessageText } 
+                  value = { props.state.newMessageText }/>
        </div> 
       <div>
         <button onClick = { addMessage }>add message</button>
