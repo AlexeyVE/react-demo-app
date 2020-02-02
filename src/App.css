@@ -27,6 +27,7 @@
 /*nav*/
 .nav {
   grid-area: nav;
+  height: 90vh;
   background-color:#bab3b2;
 }
 .nav ul li {

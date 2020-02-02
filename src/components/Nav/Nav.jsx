@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav className = "nav">
+    <nav className = "nav cl-effect-1">
       <ul>
         <li>
           <NavLink to = "/profile">Profile</NavLink>

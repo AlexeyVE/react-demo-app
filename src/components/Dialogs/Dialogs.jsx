@@ -8,9 +8,10 @@ const Dialogs = ( props ) => {
   let newMessageText = React.createRef()
 
   let updateNewMessage = () => 
-      props.updateNewMessageText ( newMessageText.current.value )
+      props.dispatch ( { type: 'UPDATE-NEW-MESSAGE-TEXT',
+                                    newText: newMessageText.current.value } )
 
-  let addMessage = () => props.addMessage()
+  let addMessage = () => props.dispatch( { type: 'ADD-MESSAGE' } )
 
   let dialogsElements = props.state.dialogs.map( ( dialog,index ) => 
                                       <DialogItem 
@@ -31,9 +32,11 @@ const Dialogs = ( props ) => {
     <div className = { style.dialogs_items }>
       { dialogsElements }
       <div>
-        <textarea onChange = { updateNewMessage } 
+        <textarea placeholder = 'new message text'
+                  onChange = { updateNewMessage } 
                   ref = { newMessageText } 
-                  value = { props.state.newMessageText }/>
+                  value = { props.state.newMessageText }
+        />
        </div> 
       <div>
         <button onClick = { addMessage }>add message</button>
