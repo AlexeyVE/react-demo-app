@@ -14,14 +14,14 @@ const Dialogs = ( props ) => {
 
   let onAddMessage = () => props.addMessage()
 
-  let dialogsElements = props.dialogs.map( ( dialog,index ) => 
+  let dialogsElements = props.dialogsPage.dialogs.map( ( dialog,index ) => 
                                       <DialogItem 
                                         name = { dialog.name } 
                                         id = { dialog.id } 
                                         key = { index }
                                       />
                                     )
-  let messagesElements = props.messages.map( ( message,index ) =>
+  let messagesElements = props.dialogsPage.messages.map( ( message,index ) =>
                                         <Message 
                                           text= { message.message } 
                                           id = { message.id } 
@@ -40,7 +40,7 @@ const Dialogs = ( props ) => {
           <textarea placeholder = 'new message text'
                     onChange = { onChangeMessage } 
                     ref = { newMessageText } 
-                    value = { props.newMessageText }
+                    value = { props.dialogsPage.newMessageText }
           />
         </div> 
         <button onClick = { onAddMessage }>add message</button>

@@ -1,0 +1,17 @@
+header {
+  .login_block {
+    position: absolute;
+    right: 10px;    
+    background: #93d6c3;
+    padding: 10px;
+    border-radius: 10px;
+    a {
+      color: #032149;
+      font-weight: bold;
+      transition: color .2s ease-out;
+    }
+    a:hover {
+      color:#09c;
+    }
+  }
+}

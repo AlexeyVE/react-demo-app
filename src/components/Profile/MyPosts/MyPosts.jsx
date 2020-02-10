@@ -1,5 +1,5 @@
-import React from "react";
-import Post from "./Post/Post";
+import React from "react"
+import Post from "./Post/Post"
 
 const MyPosts = ( props ) => {
   let newPostElement = React.createRef()
@@ -28,7 +28,7 @@ const MyPosts = ( props ) => {
           />
           <div>
             <button onClick = { onAddPost }>
-              add post
+              Add post
             </button>
           </div>  
         </div>

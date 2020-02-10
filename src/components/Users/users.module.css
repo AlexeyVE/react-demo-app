@@ -1,0 +1,36 @@
+.users {
+  height: 90vh;
+  overflow: scroll;
+}
+.users span {
+  padding: 5px;
+}
+.users span:hover {
+  cursor: pointer;
+}
+.pagination {
+  position: fixed;
+  padding: 10px;
+  top: 10px;
+  left: 250px;
+  background-color: #dcc6ad;
+}
+.totalCount {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.selectedPage {
+  font-weight: bold;
+}
+.loaded {
+  display : none;
+}
+.loading {
+  display: inline-block;
+  position: fixed;
+/*  top: 25%;
+  left: 25%;*/
+}
+
+

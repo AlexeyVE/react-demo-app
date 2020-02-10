@@ -78,3 +78,9 @@
 // }
 
 // export default store;
+
+// getUsers = async () => {
+//     let res = await axios.get("https://reqres.in/api/users?page=1");
+//     let { data } = res.data;
+//     this.setState({ users: data });
+// };

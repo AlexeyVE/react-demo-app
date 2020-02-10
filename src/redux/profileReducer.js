@@ -1,5 +1,6 @@
 const ADD_POST = 'ADD-POST'
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT'
+const GET_USER_PROFILE = 'GET-USER-PROFILE'
 
 let initialState = {
       posts: [
@@ -9,25 +10,35 @@ let initialState = {
         { id:4, message:'Id voluptate commodo incididunt', likesCount:5 },
         { id:5, message:'Id voluptate commodo incididunt', likesCount:5 }
       ],
-      newPostText: ''
+      newPostText: undefined,
+      profile : undefined
+
 }
 
 const profileReducer = ( state = initialState , action ) => {
   switch ( action.type ) {
-    case ADD_POST :
+    case UPDATE_NEW_POST_TEXT : 
+      return { ...state,newPostText: action.newText }
+    case ADD_POST : {
+      let stateCopy = {...state}
+      stateCopy.posts = [...state.posts]
       let newPost = {
         id: 6,
-        message: state.newPostText ,
+        message: stateCopy.newPostText ,
         likesCount: 5
       }
-      state.posts.push( newPost )
-      state.newPostText = ''
-    return state  
-    case UPDATE_NEW_POST_TEXT :
-      state.newPostText = action.newText
-    return state
+      stateCopy.posts.push( newPost )
+      stateCopy.newPostText = ''
+    return stateCopy 
+    }
+    case GET_USER_PROFILE : 
+      return {...state, profile: action.profile}
+    
     default : return state  
   }
-  return state
 }
+
+export const getUserProfileCreator = ( profile ) => 
+  ({ type: GET_USER_PROFILE, profile })
+
 export default profileReducer
