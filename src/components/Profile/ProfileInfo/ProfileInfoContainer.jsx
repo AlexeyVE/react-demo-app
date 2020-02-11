@@ -10,10 +10,13 @@ class ProfileInfoContainer extends React.Component {
     super( props )
   }
   getUsers = async () => {
-      let userId = this.props.match.params.userId
+       let userId
+       (!this.props.match.params.userId ) 
+        ? userId = this.props.authUserId
+        : userId = this.props.match.params.userId
       let url = 'https://social-network.samuraijs.com/api/1.0/profile/'
       let res = await axios.get( url + userId )
-      return this.props.getUserProfile ( res.data )
+      return this.props.getUserProfile ( res.data ) 
   }
   componentDidMount() { 
     console.log(this.props)   
@@ -27,7 +30,8 @@ class ProfileInfoContainer extends React.Component {
 }
 let mapStateToProps = ( state ) => {
   return {
-    profileInfo : state.profilePage.profile
+    profileInfo : state.profilePage.profile,
+    authUserId : state.auth.userId
   }
 }
 let mapDispatchToProps = ( dispatch ) => {

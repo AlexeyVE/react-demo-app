@@ -8,24 +8,27 @@ import { authCreator } from '../../redux/authReducer'
   componentDidMount () {
     axios.get('https://social-network.samuraijs.com/api/1.0/auth/me',{ withCredentials:true })
     .then( res => {
-      if (res.data.resultCode ===0 ) {
+      if (res.data.resultCode === 0 ) {
           let { id, email, login } = res.data.data
           console.log(id,email,login)
-          this.props.setAuthData ( payload : {id, email, login} )
+          this.props.setAuthData ( id, email, login  )
       }
-      else {alert('YOU ARE NOT AUTHORITHED')}
+      else { alert('YOU ARE NOT AUTHORITHED') }
     })
   } 
   render () {
     return (
-      <Header { ...this.props }/>
+      <Header { ...this.props } 
+              login = { this.props.login } 
+              isAuth = { this.props.isAuth } />
       )
   }
 }
 
 const mapStateToProps = ( state ) => {
   return {
-
+    isAuth: state.auth.isAuth,
+    login: state.auth.login
   }
 }
 const mapDispatchToProps = ( dispatch ) => {
