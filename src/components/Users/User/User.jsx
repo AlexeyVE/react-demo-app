@@ -11,24 +11,26 @@ const User = ( props ) => {
                                           headers:{
                                             "API-KEY":"997b5ad2-6cec-45f5-8b70-71df99852bbb"
                                           }
-    })
+                                      })
     .then( res => {
-      if ( res.data.result === 0 ) {
+      if ( res.data.resultCode === 0 ) {
         props.follow( props.userId )
       }
-    })}
+    }).catch( err => console.log( err ))
+  }
 
   let unfollow = () => {
     axios.delete( url + props.userId, { withCredentials:true,
                                         headers: {
-                                          'API-KEY':'997b5ad2-6cec-45f5-8b70-71df99852bbb'
+                                          "API-KEY":"997b5ad2-6cec-45f5-8b70-71df99852bbb"
                                         }
                                       })
     .then( res => {
-      if ( res.data.result === 0 ) {
+      if ( res.data.resultCode === 0 ) {
         props.unfollow( props.userId )
       }
-    })}  
+    }).catch( err => console.log( err ))
+  }  
   
   return (
       <div className= { style.userWrapper } >
