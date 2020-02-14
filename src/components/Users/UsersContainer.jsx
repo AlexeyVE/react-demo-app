@@ -2,10 +2,8 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { followCreator,
          unfollowCreator,
-         getUsersCreator,
-         changePageCreator,
-         getUsersCountCreator,
-         toggleLoaderCreator, } from '../../redux/usersReducer'
+         getUsersThunkCreator,
+         changePageThunkCreator,  } from '../../redux/usersReducer'
 import Users from './Users'
 
 let mapStateToProps = ( state ) => {
@@ -14,7 +12,8 @@ let mapStateToProps = ( state ) => {
     pageSize: state.usersPage.pageSize,
     totalUsersCount: state.usersPage.totalUsersCount,
     currentPage: state.usersPage.currentPage,
-    isFetching : state.usersPage.isFetching
+    isFetching : state.usersPage.isFetching,
+    toggleInprogress: state.usersPage.inProgress
   }
 }
 // let mapDispatchtoProps = ( dispatch ) => {
@@ -42,11 +41,9 @@ let mapStateToProps = ( state ) => {
 
 let mapDispatchtoProps = {
      follow: followCreator,
-     unfollow: unfollowCreator, 
-     getUsers: getUsersCreator,
-     setCurrentPage: changePageCreator,
-     getUsersCount: getUsersCountCreator,
-     toggleLoader: toggleLoaderCreator,
+     unfollow: unfollowCreator,
+     getUsers: getUsersThunkCreator,
+     changePage: changePageThunkCreator,
 } 
 
-export default connect( mapStateToProps,mapDispatchtoProps )( Users )
+export default connect( mapStateToProps, mapDispatchtoProps )( Users )

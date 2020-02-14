@@ -1,8 +1,8 @@
-import React from 'react';
-import style from './Dialogs.module.css';
-import DialogItem from'./Dialog/DialogItem';
-import Message from'./Message/Message';
-
+import React from 'react'
+import style from './Dialogs.module.css'
+import DialogItem from'./Dialog/DialogItem'
+import Message from'./Message/Message'
+import { Redirect } from 'react-router-dom'
 const Dialogs = ( props ) => {
 
   let newMessageText = React.createRef()
@@ -28,6 +28,7 @@ const Dialogs = ( props ) => {
                                           key = { index }
                                         />
                                       )
+  if( !props.isAuth ) return <Redirect to = { '/login' } /> 
   return (    
   <div className = { style.dialogs }>
     <div className = { style.dialogs_items }>

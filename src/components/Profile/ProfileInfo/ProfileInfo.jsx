@@ -5,10 +5,13 @@ import style from './profileInfo.module.scss'
 
 const ProfileInfo = ( props ) => {
   if (!props.profileInfo) {
-    return <Preloader / >
+    return (  <div className = { style.profileInfo }> 
+                <Preloader / >
+              </div>
+            )  
   }
   return (
-      <div className = {style.profileInfo }>
+      <div className = { style.profileInfo }>
           <h4> Profile header </h4>
         <div className = { style.profile_logo }>          
           { !props.profileInfo.photos.small

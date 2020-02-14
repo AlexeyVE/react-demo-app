@@ -9,12 +9,12 @@ const Header = ( props ) => {
       <div className= { style.login_block }>
         { !props.isAuth 
         ? <NavLink to = "/login">log in</NavLink>
-        : <span> { props.login} </span>}
+        : <span> { props.login } </span> }
       </div>
       <div className = {style.is_auth}>
       </div>
     </header>
-  );
+  )
 }
 
 export default Header;

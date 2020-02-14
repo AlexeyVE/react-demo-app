@@ -1,6 +1,6 @@
 import React from 'react'
-import axios from 'axios'
 import User from './User/User'
+import { api } from '../../api/'
 import style from './users.module.css'
 import Preloader from '../common/Preloader/'
 
@@ -9,22 +9,26 @@ class Users extends React.Component {
     super(props)
   }
   componentDidMount() {
-    this.props.toggleLoader( true )
-    axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${this.props.currentPage}&count=${this.props.pageSize}`,
-      { withCredentials:true })
-    .then(res => { 
-      this.props.getUsers(res.data.items)
-      this.props.getUsersCount( res.data.totalCount )
-      this.props.toggleLoader( false )
-    })
+    let currentPage = this.props.currentPage,
+        pageSize = this.props.pageSize
+    this.props.getUsers( currentPage, pageSize )
+    // this.props.toggleLoader( true )
+    // api.getUsers( this.props.currentPage, this.props.pageSize )
+    // .then( res => { 
+    //   this.props.getUsers( res.items )
+    //   this.props.getUsersCount( res.totalCount )
+    //   this.props.toggleLoader( false )
+    // })
   }
   onPageChanged = ( pageNumber ) => {
-      this.props.setCurrentPage( pageNumber )
-      axios.get(`https://social-network.samuraijs.com/api/1.0/users?page=${pageNumber}&count=${this.props.pageSize}`,
-        { withCredentials:true })
-      .then(res => { 
-        this.props.getUsers( res.data.items )
-    })
+    this.props.changePage( pageNumber, this.props.pageSize )
+    //   this.props.toggleLoader( true )
+    //   this.props.setCurrentPage( pageNumber )
+    //   api.getUsers( pageNumber, this.props.pageSize )
+    //   .then( res => { 
+    //     this.props.getUsers( res.items )
+    //     this.props.toggleLoader( false )
+    // })
   }
   render() {
     let pagesCount = this.props.totalUsersCount/this.props.pageSize
@@ -52,10 +56,10 @@ class Users extends React.Component {
         </div>
         { this.props.users.map( (user,index) => 
           <User
-            key = { user.id } 
+            key = { user.id }
+            userId = { user.id } 
             name = { user.name }
             followed = { user.followed }
-            userId = { user.id }
             photos = { user.photos.small }
             location = {" user.location "}
             status = { user.status }
@@ -66,5 +70,5 @@ class Users extends React.Component {
   }
 }
 
-  
+
 export default Users
