@@ -2,6 +2,8 @@ import React from 'react';
 import style from './Dialogs.module.css';
 import Dialogs from './Dialogs'
 import { connect } from 'react-redux'
+import { compose } from 'redux'
+import { AuthRedirect } from '../common/AuthRedirect/'
 
 // const DialogsContainer = ( props ) => {
 //   let state = props.store.getState()
@@ -52,7 +54,7 @@ let mapDispatchToProps = ( dispatch ) => {
     }       
   }
 }
+export default compose(connect( mapStateToProps,mapDispatchToProps ),
+                       AuthRedirect)( Dialogs )
 
-let DialogsContainer = connect( mapStateToProps,mapDispatchToProps )( Dialogs )
 
-export default DialogsContainer;

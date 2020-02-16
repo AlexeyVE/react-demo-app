@@ -1,10 +1,11 @@
 import React from 'react';
 import Preloader from '../../common/Preloader/'
 import EmptyPhoto from '../../common/EmptyPhoto/'
+import ProfileStatus from './ProfileStatus'
 import style from './profileInfo.module.scss'
 
 const ProfileInfo = ( props ) => {
-  if (!props.profileInfo) {
+  if ( !props.profileInfo ) {
     return (  <div className = { style.profileInfo }> 
                 <Preloader / >
               </div>
@@ -19,8 +20,9 @@ const ProfileInfo = ( props ) => {
             : <img  src = { props.profileInfo.photos.small } alt ="empty" />
           }
         </div>
+        <ProfileStatus status = { "My status" }/>
         <div className = { style.profile_details }>
-          {props.profileInfo.fullName}
+          { props.profileInfo.fullName }
         </div>
      </div> 
     )

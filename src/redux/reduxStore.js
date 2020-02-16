@@ -1,4 +1,5 @@
 import { combineReducers, createStore,applyMiddleware } from 'redux'
+import logger from 'redux-logger'
 import thunkMiddleware from 'redux-thunk'
 import profileReducer  from './profileReducer'
 import dialogsReducer from './dialogsReducer'
@@ -13,7 +14,7 @@ const rootReducer = combineReducers( {
   auth: authReducer,
 } )
 
-const store = createStore( rootReducer, applyMiddleware( thunkMiddleware ))
+const store = createStore( rootReducer, applyMiddleware(logger ,thunkMiddleware ))
 
 window.store = store
 

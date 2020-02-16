@@ -1,6 +1,5 @@
 import React from 'react'
 import User from './User/User'
-import { api } from '../../api/'
 import style from './users.module.css'
 import Preloader from '../common/Preloader/'
 

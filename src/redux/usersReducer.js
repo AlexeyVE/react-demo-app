@@ -65,7 +65,7 @@ export const getUsersThunkCreator = ( currentPage, pageSize ) => {
   }
 }
 export const changePageThunkCreator = ( pageNumber, pageSize ) => {
-  return (dispatch) => {
+  return ( dispatch ) => {
       dispatch( toggleLoaderCreator ( true ) )
       dispatch( changePageCreator( pageNumber ) )
       usersAPI.fetchData( pageNumber, pageSize )

@@ -1,10 +1,11 @@
 import React from "react"
 import { connect } from 'react-redux'
+import { compose } from 'redux'
 import { withRouter } from 'react-router-dom'
 import { usersAPI } from '../../../api/'
-// import axios from 'axios'
 import ProfileInfo from './ProfileInfo'
 import { getProfile } from '../../../redux/profileReducer'
+import { AuthRedirect } from '../../common/AuthRedirect/'
 
 class ProfileInfoContainer extends React.Component {
   constructor ( props ) {
@@ -41,6 +42,7 @@ let mapStateToProps = ( state ) => {
 let mapDispatchToProps = {
   getProfile  
 }
-const ProfileWithUrlData = withRouter( ProfileInfoContainer )
 
-export default connect( mapStateToProps, mapDispatchToProps )( ProfileWithUrlData )
+
+export default compose( connect( mapStateToProps, mapDispatchToProps ),
+                        withRouter, AuthRedirect )(ProfileInfoContainer)

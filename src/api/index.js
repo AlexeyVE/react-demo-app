@@ -31,9 +31,16 @@ export const usersAPI = {
   },
   follow: ( userId ) => instance.post('/follow/' + userId ),
   unfollow: ( userId ) => instance.delete('/follow/' + userId ),
-  getProfile: ( userId ) => instance.get( '/profile/' + userId ),
 }
-
+export const profileAPI = {
+  getProfile: ( userId ) => instance.get( '/profile/' + userId ),
+  getProfileStatus :( userId ) => {
+    return instance.get('/profile/status/' + userId )
+  },
+  updateStatus: ( newStatus ) => {
+    return instance.put('status')
+  }
+}
 export const authAPI = {
   isAuth: () => {
     return instance.get('/auth/me').then( res => res.data )
