@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 import MyPosts from './MyPosts'
 
 
-let addPostActionCreator = () => ({ type:'ADD-POST' })
-let updateNewPostTextActionCreator = ( text ) => ({ type: 'UPDATE-NEW-POST-TEXT', newText: text })
+let addPostCreator = () => ({ type:'ADD-POST' })
+let updateNewPostTextCreator = ( text ) => ({ type: 'UPDATE-NEW-POST-TEXT', newText: text })
 
 let mapStateToProps = ( state ) => {
   return {
@@ -15,11 +15,11 @@ let mapStateToProps = ( state ) => {
 let mapDispatchToProps = ( dispatch ) => {
   return {
     updateNewPostText: ( text ) => {
-    let action = updateNewPostTextActionCreator( text )
+    let action = updateNewPostTextCreator( text )
       dispatch( action )
   },
     addPost: () => { 
-      dispatch( addPostActionCreator() )
+      dispatch( addPostCreator() )
     }
   }
 }

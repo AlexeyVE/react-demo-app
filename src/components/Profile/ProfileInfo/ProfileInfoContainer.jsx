@@ -4,7 +4,7 @@ import { compose } from 'redux'
 import { withRouter } from 'react-router-dom'
 import { usersAPI } from '../../../api/'
 import ProfileInfo from './ProfileInfo'
-import { getProfile } from '../../../redux/profileReducer'
+import { getProfile, getStatus, updateStatus } from '../../../redux/profileReducer'
 import { AuthRedirect } from '../../common/AuthRedirect/'
 
 class ProfileInfoContainer extends React.Component {
@@ -25,24 +25,30 @@ class ProfileInfoContainer extends React.Component {
     ( !this.props.match.params.userId ) 
     ? userId = this.props.authUserId
     : userId = this.props.match.params.userId
-    this.props.getProfile( userId )  
+    this.props.getProfile( userId )
+    this.props.getStatus( userId )
   }    
   render() {
     return(
-      <ProfileInfo profileInfo = { this.props.profileInfo } />
+      <ProfileInfo profileInfo = { this.props.profileInfo } 
+                   status = { this.props.userStatus }
+                   updateStatus = { this.props.updateStatus } />
       )
   }
 }
 let mapStateToProps = ( state ) => {
   return {
     profileInfo : state.profilePage.profile,
-    authUserId : state.auth.userId
+    userStatus: state.profilePage.status, 
+    authUserId : state.auth.userId,  
   }
 }
 let mapDispatchToProps = {
-  getProfile  
+  getProfile,
+  getStatus,
+  updateStatus,  
 }
 
 
 export default compose( connect( mapStateToProps, mapDispatchToProps ),
-                        withRouter, AuthRedirect )(ProfileInfoContainer)
+                        withRouter, AuthRedirect )( ProfileInfoContainer )

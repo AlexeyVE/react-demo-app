@@ -25,7 +25,7 @@ export const usersAPI = {
       page: currentPage,
       count: pageSize,
     }
-    return instance.get( '/users',{ params })
+    return instance.get( '/users', { params })
            .then( res => res.data )
            .catch( err => console.log( err )) 
   },
@@ -37,13 +37,13 @@ export const profileAPI = {
   getProfileStatus :( userId ) => {
     return instance.get('/profile/status/' + userId )
   },
-  updateStatus: ( newStatus ) => {
-    return instance.put('status')
+  updateStatus: ( status ) => {
+    return instance.put( '/profile/status', { status: status } )
   }
 }
 export const authAPI = {
   isAuth: () => {
-    return instance.get('/auth/me').then( res => res.data )
+    return instance.get( '/auth/me' ).then( res => res.data )
   },
 }
 

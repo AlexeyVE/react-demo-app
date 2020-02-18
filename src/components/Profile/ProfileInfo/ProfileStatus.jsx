@@ -1,29 +1,51 @@
 import React from 'react'
+import style from './profileInfo.module.scss'
 
 export default class ProfileStatus extends React.Component {
   state = {
-    editMode: false
+    editMode: false,
+    status: this.props.status
   }
-  changeSatus = () => {    
+  componentDidUpdate ( prevProps, prevState ) {
+    if ( prevProps.status != this.props.status ) {
+      this.setState ({
+        status: this.props.status
+      })
+    }
+  }
+  enableEditMode = () => {    
+    this.setState({
+      editMode: true,
+    })
+  }
+  disableEditMode = () => {
     this.setState( {
-      editMode : !this.state.editMode
+      editMode: false,
+    })
+    this.props.updateStatus( this.state.status )
+  }
+  onInputChange = ( e ) => {
+    this.setState({
+      status: e.currentTarget.value
     })
   }
   render () {
     return (
-      <div>
-      <button onClick = {this.changeSatus } >Изменить статус</button>  
+      <div className = { style.status }>
         { !this.state.editMode &&
           <div>
-            <span> { this.props.status } </span>
+            <span onClick = { this.enableEditMode }>{ this.state.status || 'x_x'}</span>
           </div>
         }
         { this.state.editMode &&
-          <div>  
-            <input type = "text" defaultValue = { this.props.status } />
-          </div>  
-        }
-      </div>
+            <div>  
+              <input onChange = { this.onInputChange }
+                     autoFocus = { true }
+                     onBlur = { this.disableEditMode } 
+                     type = "text" value = { this.state.status } />
+            </div>  
+          }
+        </div>
     )
   }
 }

@@ -3,7 +3,6 @@ import style from './Dialogs.module.css'
 import DialogItem from'./Dialog/DialogItem'
 import Message from'./Message/Message'
 import { Redirect } from 'react-router-dom'
-// import { AuthRedirect } from '../common/AuthRedirect/ '
 import AuthRedirect from '../common/AuthRedirect/'
 const Dialogs = ( props ) => {
 
