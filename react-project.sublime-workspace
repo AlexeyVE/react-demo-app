@@ -1,0 +1,2016 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"render",
+				"renderField"
+			],
+			[
+				"rende",
+				"renderField"
+			],
+			[
+				"lo",
+				"logout"
+			],
+			[
+				"au",
+				"authCreator"
+			],
+			[
+				"aut",
+				"authCreator"
+			],
+			[
+				"map",
+				"mapDispatchToProps"
+			],
+			[
+				"is",
+				"isAuth\tsource_modules"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"l",
+				"login.module.scss"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"res",
+				"resultCode"
+			],
+			[
+				"auth",
+				"authAPI"
+			],
+			[
+				"Login",
+				"LoginForm.jsx"
+			],
+			[
+				"Me",
+				"Message"
+			],
+			[
+				"new",
+				"newMsg"
+			],
+			[
+				"pro",
+				"profileReducer.js"
+			],
+			[
+				"post",
+				"postBody"
+			],
+			[
+				"A",
+				"AddPostForm"
+			],
+			[
+				"ne",
+				"newMsgBody"
+			],
+			[
+				"add",
+				"addMessageCreator"
+			],
+			[
+				"on",
+				"onSubmit"
+			],
+			[
+				"Mess",
+				"MessageForm"
+			],
+			[
+				"M",
+				"MessageForm.jsx"
+			],
+			[
+				"redux",
+				"reduxForm"
+			],
+			[
+				"fo",
+				"from"
+			],
+			[
+				"Lo",
+				"LoginForm"
+			],
+			[
+				"form",
+				"formReducer"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"pre",
+				"prevProps"
+			],
+			[
+				"sta",
+				"state\tReact: this.state."
+			],
+			[
+				"status",
+				"statusInput"
+			],
+			[
+				"di",
+				"disableEditMode"
+			],
+			[
+				"edit",
+				"editMode"
+			],
+			[
+				"p",
+				"profileInfo.module.scss"
+			],
+			[
+				"u",
+				"undefined"
+			],
+			[
+				"get",
+				"getUsers"
+			],
+			[
+				"cla",
+				"classNames"
+			],
+			[
+				"B",
+				"BaseButton"
+			],
+			[
+				"es",
+				"editStatusCreator"
+			],
+			[
+				"E",
+				"EDIT_STATUS"
+			],
+			[
+				"profile",
+				"profileAPI"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"GET",
+				"GET_STATUS"
+			],
+			[
+				"e",
+				"editMode"
+			],
+			[
+				"P",
+				"ProfileStatus"
+			],
+			[
+				"Re",
+				"RedirectComponent"
+			],
+			[
+				"R",
+				"RedirectComponent"
+			],
+			[
+				"a",
+				"authRedirect"
+			],
+			[
+				"use",
+				"usersAPI"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"page",
+				"pageNumber"
+			],
+			[
+				"c",
+				"currentPage"
+			],
+			[
+				"ge",
+				"getUsers"
+			],
+			[
+				"thu",
+				"thunkMiddleware"
+			],
+			[
+				"to",
+				"toggleInprogressCreator"
+			],
+			[
+				"toggle",
+				"toggleInprogress"
+			],
+			[
+				"T",
+				"TOGGLE_IN_PROGRESS"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"H",
+				"HeaderContainer"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"magin",
+				"margin-left\tproperty"
+			],
+			[
+				"s",
+				"preloader.module.css"
+			],
+			[
+				"Pr",
+				"Preloader"
+			],
+			[
+				"pr",
+				"profile"
+			],
+			[
+				"r",
+				"redux/"
+			],
+			[
+				"ma",
+				"mapDispatchToProps"
+			],
+			[
+				"co",
+				"connect"
+			],
+			[
+				"G",
+				"GET_USER_PROFILE"
+			],
+			[
+				"usre",
+				"users"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"t",
+				"totalCount"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"SE",
+				"SET_CURRENT_PAGE"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"rd",
+				"rxreducer\treduxReducer"
+			],
+			[
+				"props",
+				"props\tcomponentProps"
+			],
+			[
+				"ru",
+				"return"
+			],
+			[
+				"un",
+				"unfollowCreator"
+			],
+			[
+				"follo",
+				"followCreator"
+			],
+			[
+				"users",
+				"usersReducer"
+			],
+			[
+				"dia",
+				"dialogsPage"
+			],
+			[
+				"Dia",
+				"Dialogs.jsx"
+			],
+			[
+				"onC",
+				"onChangeMessage"
+			],
+			[
+				"m",
+				"MyPosts"
+			],
+			[
+				"Add",
+				"addMessage"
+			],
+			[
+				"up",
+				"updateNewMessageCreator"
+			],
+			[
+				"reduc",
+				"redux-field-color\tredux-field-color"
+			],
+			[
+				"cre",
+				"createStore"
+			],
+			[
+				"d",
+				"dialogs"
+			],
+			[
+				"de",
+				"debugger"
+			],
+			[
+				"St",
+				"String"
+			],
+			[
+				"o",
+				"observer"
+			],
+			[
+				"U",
+				"updateNewMessageText"
+			],
+			[
+				"newMessage",
+				"newMessageText"
+			],
+			[
+				"ad",
+				"addPost"
+			],
+			[
+				"po",
+				"postMessage"
+			],
+			[
+				"L",
+				"likesCount"
+			],
+			[
+				"dial",
+				"dialogsElements"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"Profile",
+				"ProfileInfo"
+			],
+			[
+				"grid-te",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"grid",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"Na",
+				"NavLink"
+			],
+			[
+				"My",
+				"MyPosts"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"gri",
+				"grid-area\tproperty"
+			],
+			[
+				"margi",
+				"margin-bottom\tproperty"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"GRI",
+				"grid-area\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/redux/reduxStore.js",
+			"settings":
+			{
+				"buffer_size": 678,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/redux/usersReducer.js",
+			"settings":
+			{
+				"buffer_size": 2760,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/common/AuthRedirect/index.js",
+			"settings":
+			{
+				"buffer_size": 526,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Dialogs/Message/MessageForm.jsx",
+			"settings":
+			{
+				"buffer_size": 1089,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import React from 'react'\nimport style from './Dialogs.module.css'\nimport DialogItem from'./Dialog/DialogItem'\nimport Message from'./Message/Message'\n// import { Redirect } from 'react-router-dom'\n// import AuthRedirect from '../common/AuthRedirect/'\nimport MessageForm from './Message/MessageForm'\n\nconst Dialogs = ( props ) => {\n  \n  let addMessage = ( val ) => {\n    props.addMessage( val.msgBody )\n  }\n\n  // let newMessageText = React.createRef()\n\n  // let onChangeMessage = () => {\n  //   let text = newMessageText.current.value\n  //   props.changeMessageText( text )\n  // }\n  // let onAddMessage = () => props.addMessage()\n\n  let dialogsElements = props.dialogsPage.dialogs.map( ( dialog,index ) => \n                                      <DialogItem \n                                        name = { dialog.name } \n                                        id = { dialog.id } \n                                        key = { index }\n                                      />\n                                    )\n  let messagesElements = props.dialogsPage.messages.map( ( message,index ) =>\n                                        <Message \n                                          text= { message.message } \n                                          id = { message.id } \n                                          key = { index }\n                                        />\n                                      ) \n  return (\n  <div className = { style.dialogs }>\n    <div className = { style.dialogs_items }>\n      { dialogsElements }   \n    </div>\n    <div className = { style.messages }>\n      { messagesElements }\n      <div>\n        <MessageForm onSubmit = { addMessage } /> \n      </div>\n    </div>    \n  </div>\n  );\n}\n\nexport default Dialogs;",
+			"file": "src/components/Dialogs/Dialogs.jsx",
+			"file_size": 1803,
+			"file_write_time": 132266675919530158,
+			"settings":
+			{
+				"buffer_size": 1752,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Login/Login.jsx",
+			"settings":
+			{
+				"buffer_size": 729,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Users/User/User.jsx",
+			"settings":
+			{
+				"buffer_size": 1906,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Header/HeaderContainer.jsx",
+			"settings":
+			{
+				"buffer_size": 784,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Header/Header.jsx",
+			"settings":
+			{
+				"buffer_size": 601,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Login/login.module.scss",
+			"settings":
+			{
+				"buffer_size": 145,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/index.scss",
+			"settings":
+			{
+				"buffer_size": 707,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Login/LoginForm.jsx",
+			"settings":
+			{
+				"buffer_size": 1406,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Profile/ProfileInfo/profileInfo.module.scss",
+			"settings":
+			{
+				"buffer_size": 306,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/redux/authReducer.js",
+			"settings":
+			{
+				"buffer_size": 1302,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/redux/dialogsReducer.js",
+			"settings":
+			{
+				"buffer_size": 1224,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/api/index.js",
+			"settings":
+			{
+				"buffer_size": 1552,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import React from \"react\"\nimport Post from \"./Post/Post\"\nimport AddPostForm from './Post/AddPostForm'\n\nconst MyPosts =  ( props )  => {\n\n  let addNewPost =  ( val )  => {\n    props.addPost( val.postBody )\n  }  \n\n  let postsElements = props.posts.map( ( post,index ) => \n                                  <Post\n                                    message = { post.message }\n                                    likesCount = { post.likesCount } \n                                    key = { index }\n                                  />\n                                )\n  return (\n      <div className = \"posts\">\n        <div className = \"add-new-post\">\n          <AddPostForm onSubmit = { addNewPost } /> \n        </div>\n        <h4>Posts</h4>\n        { postsElements }\n      </div>\n  )\n}\n\nexport default MyPosts;",
+			"file": "src/components/Profile/MyPosts/MyPosts.jsx",
+			"file_size": 837,
+			"file_write_time": 132266646696341687,
+			"settings":
+			{
+				"buffer_size": 810,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/redux/profileReducer.js",
+			"settings":
+			{
+				"buffer_size": 2097,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/components/Dialogs/DialogsContainer.jsx",
+			"settings":
+			{
+				"buffer_size": 1647,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "import React from 'react';\nimport HeaderContainer from './components/Header/HeaderContainer';\nimport Nav from './components/Nav/Nav';\nimport Profile from './components/Profile/Profile';\nimport DialogsContainer from './components/Dialogs/DialogsContainer';\nimport UsersContainer from './components/Users/UsersContainer';\nimport News from './components/News/News';\nimport Music from './components/Music/Music';\nimport Settings from './components/Settings/Settings';\nimport Login from './components/Login/Login'\nimport { Route } from 'react-router-dom';\n\n// import './App.css';\n\nfunction App( props ) {  \n  return (\n    <div className = \"app-wrapper\">\n      <HeaderContainer />\n      <Nav />\n      <Route path = \"/profile/:userId?\" \n             render = { () => <Profile/> }/>      \n      <Route path = \"/dialogs\"\n             render = { () => <DialogsContainer/> } /> {/*exact */}\n      <Route path =\"/users\" \n             render = { () => <UsersContainer/> } />\n      <Route path = \"/login\" render = { () => <Login/> } />              \n      <Route path = \"/news\" component = { News }/>\n      <Route path = \"/music\" component = { Music } />\n      <Route path = \"/settings\" component = { Settings } />\n    </div>\n  );\n}\n\nexport default App\n",
+			"file": "src/App.js",
+			"file_size": 1239,
+			"file_write_time": 132266809480122134,
+			"settings":
+			{
+				"buffer_size": 1239,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"REM",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"emmet",
+				"Toggle Comment"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 207.0,
+		"history":
+		[
+			"git init",
+			"git"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/web/react/my-app"
+	],
+	"file_history":
+	[
+		"/F/web/react/my-app/src/components/Profile/MyPosts/MyPostsContainer.jsx",
+		"/F/web/react/my-app/src/components/Profile/MyPosts/Post/AddPostForm.jsx",
+		"/F/web/tympanus.net/AnimatedBorderMenus/AnimatedBorderMenus/css/icons.css",
+		"/F/web/react/my-app/node_modules/@testing-library/react/dist/@testing-library/react.cjs.js",
+		"/F/web/react/my-app/src/redux/dialogsReducer.js",
+		"/F/web/react/my-app/src/utils/validators/index.js",
+		"/F/web/react/my-app/src/components/Login/Login.jsx",
+		"/F/web/react/my-app-3/src/styles/index.scss",
+		"/F/web/react/my-app-3/src/index.js",
+		"/F/web/react/my-app-3/src/components/index.js",
+		"/F/web/react/my-app-3/src/App.js",
+		"/F/web/react/my-app-3/package.json",
+		"/F/web/react/my-app-3/README.md",
+		"/F/web/react/my-app/src/components/Dialogs/Dialogs.jsx",
+		"/F/web/react/my-app/src/components/common/AuthRedirect/index.js",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfo.jsx",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfoContainer.jsx",
+		"/F/web/react/my-app/src/api/index.js",
+		"/F/web/react/my-app/src/redux/profileReducer.js",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/profileInfo.module.scss",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileStatus.jsx",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Colorsublime.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Colorsublime/Colorsublime.sublime-settings",
+		"/F/web/react/my-app-3/src/index.scss",
+		"/F/web/react/my-app-3/src/components/Button/Button.scss",
+		"/F/web/react/my-app-3/src/components/Button/index.js",
+		"/F/web/react/my-app-3/src/logo.svg",
+		"/F/web/react/my-app/src/redux/authReducer.js",
+		"/F/web/react/my-app/src/redux/reduxStore.js",
+		"/F/web/react/my-app/src/redux/usersReducer.js",
+		"/F/web/react/my-app/src/components/Users/User/User.jsx",
+		"/F/web/react/my-app/src/App.js",
+		"/F/web/react/my-app/src/components/Dialogs/DialogsContainer.jsx",
+		"/F/web/react/my-app/src/components/Header/HeaderContainer.jsx",
+		"/F/web/react/my-app/src/components/Header/Header.jsx",
+		"/F/web/react/my-app/src/components/Users/UsersContainer.jsx",
+		"/F/web/react/my-app/src/components/Users/Users.jsx",
+		"/F/web/react/my-app/.prettierrc",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/F/web/react/my-app/package.json",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/F/web/react/my-app/node_modules/compose-function/module/index.js",
+		"/F/web/react/my-app/node_modules/arity-n/test.js",
+		"/F/web/react/my-app/src/components/common/authRedirect/index.js",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/F/web/react/my-app/src/components/Users/User/user.module.scss",
+		"/F/web/react/my-app/src/components/common/Preloader/preloader.module.css",
+		"/F/web/react/my-app/src/components/common/EmptyPhoto/index.js",
+		"/F/web/react/my-app/src/index.js",
+		"/F/web/react/my-app/src/components/Profile/MyPosts/MyPosts.jsx",
+		"/F/web/react/my-app/src/components/common/Preloader/index.js",
+		"/F/web/react/my-app/src/index.scss",
+		"/F/web/react/my-app/src/App.css",
+		"/F/web/spinkit230518/index.html",
+		"/F/web/react/my-app/src/components/Profile/Profile.jsx",
+		"/F/web/react/my-app/src/components/Header/header.module.scss",
+		"/F/web/react/my-app/src/components/common/EmptyPhoto/empty.module.scss",
+		"/F/web/react/my-app/src/components/common/Preloader/style.scss",
+		"/F/web/spinkit230518/js/index.js",
+		"/F/web/cube-loader100218/index.html",
+		"/F/web/cube-loader100218/scss/style.scss",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfo.module.scss",
+		"/F/web/react/my-app/node_modules/bluebird/js/release/props.js",
+		"/F/web/react/my-app/.eslintrc",
+		"/F/web/react/my-app/src/components/Users/users.module.css",
+		"/F/web/react/my-app-2/package.json",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/F/web/react/my-app/src/StoreContext.js",
+		"/F/web/react/my-app/src/redux/store.js",
+		"/F/web/react/my-app/src/index.css",
+		"/F/web/react/my-app/src/reset.css",
+		"/F/web/react/my-app/src/components/Users/UsersC.jsx",
+		"/F/web/react/my-app/src/components/Nav/Nav.jsx",
+		"/F/web/react/my-app/src/components/Users/Users.module.css",
+		"/F/web/tympanus.net/CreativeButtons/index.html",
+		"/F/web/tympanus.net/CreativeButtons/css/component.css",
+		"/F/web/react/my-app/node_modules/react-redux/lib/connect/connect.js",
+		"/F/web/react/my-app/node_modules/react-redux/dist/react-redux.js",
+		"/F/web/react/my-app/src/css/demo.css",
+		"/F/web/react/my-app/src/redux/sidebarReducer.js",
+		"/F/web/react/my-app/src/components/Music/Music.jsx",
+		"/F/web/react/my-app/src/components/Dialogs/Message/Message.jsx",
+		"/F/web/react/my-app/src/components/Settings/Settings.jsx",
+		"/F/web/react/my-app/src/components/News/News.jsx",
+		"/F/web/react/my-app/src/Data/posts.json",
+		"/F/web/react/my-app/src/components/Dialogs/Message/Message.module.css",
+		"/F/web/react/my-app/src/components/Dialogs/Dialog/DialogItem.jsx",
+		"/F/web/tympanus.net/CreativeLinkEffects/index.html",
+		"/F/web/react/my-app/src/components/Profile/My posts/Post/Post.jsx",
+		"/F/web/react/my-app/node_modules/react-dom/cjs/react-dom.development.js",
+		"/F/web/react/my-app/src/components/Profile/My posts/MyPosts.jsx",
+		"/F/web/react/my-app/src/components/Profile/My posts/MyPostsContainer.jsx",
+		"/F/web/react/my-app/src/components/Dialogs/Dialogs.module.css",
+		"/F/web/react/my-app/src/components/Profile/ProfileInfo/ProfileInfo.module.css",
+		"/F/web/react/my-app/node_modules/redux/dist/redux.js",
+		"/F/web/react/my-app/node_modules/redux/README.md",
+		"/F/web/react/my-app/src/css/component.css",
+		"/F/web/tympanus.net/CreativeLinkEffects/README.md",
+		"/F/web/tympanus.net/CreativeLinkEffects/css/normalize.css",
+		"/F/web/tympanus.net/CreativeLinkEffects/css/demo.css",
+		"/F/web/react/my-app/src/render.js",
+		"/F/web/react/my-app/node_modules/jest-environment-jsdom-fourteen/node_modules/jsdom/lib/jsdom/living/window/History-impl.js",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Babel/Babel.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/F/web/react/my-app/src/Data/usersList.json",
+		"/F/web/react/my-app/src/components/Dialogs/data.js",
+		"/F/web/react/my-app/src/components/Profile/My posts/Post",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/F/web/react/my-app/src/header.jsx",
+		"/F/web/fizkult/css/style.css",
+		"/F/web/fizkult/index.html",
+		"/F/web/fizkult/js/script.js",
+		"/F/web/aboutme/css/nav.css",
+		"/F/web/gMaps/index.html",
+		"/F/web/gMaps/style.css",
+		"/F/web/gMaps/script.js",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/C/Users/Алексей/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"profile"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 16,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/redux/reduxStore.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/redux/usersReducer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1452.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/common/AuthRedirect/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/Dialogs/Message/MessageForm.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								522,
+								522
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/components/Dialogs/Dialogs.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582273379.55
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/Login/Login.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/components/Users/User/User.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								160
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/components/Header/HeaderContainer.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/components/Header/Header.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								456,
+								456
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/components/Login/login.module.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+								"#ff0000ff"
+							],
+							"color_helper.popup_active": false,
+							"color_helper.popup_auto": true,
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hwb",
+									"hex_compressed",
+									"hsla",
+									"webcolors",
+									"graya",
+									"hwba",
+									"hex",
+									"hexa_compressed",
+									"rgb",
+									"rgba",
+									"gray",
+									"hexa"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".scss",
+								"current_syntax": "SCSS/SCSS",
+								"enabled": true,
+								"last_updated": 1582273379.55,
+								"scan_completion_scopes":
+								[
+									"source.scss"
+								],
+								"scan_scopes":
+								[
+									"source.scss -comment -string"
+								],
+								"use_hex_argb": false
+							},
+							"open_with_edit": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hwb",
+									"hex_compressed",
+									"hsla",
+									"webcolors",
+									"graya",
+									"hwba",
+									"hex",
+									"hexa_compressed",
+									"rgb",
+									"rgba",
+									"gray",
+									"hexa"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".scss",
+								"current_syntax": "SCSS/SCSS",
+								"enabled": true,
+								"last_updated": 1582273379.55,
+								"scan_completion_scopes":
+								[
+									"source.scss"
+								],
+								"scan_scopes":
+								[
+									"source.scss -comment -string"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/components/Login/LoginForm.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1240,
+								1240
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/components/Profile/ProfileInfo/profileInfo.module.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+								"#2eb7ed99@1"
+							],
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hwb",
+									"hex_compressed",
+									"hsla",
+									"webcolors",
+									"graya",
+									"hwba",
+									"hex",
+									"hexa_compressed",
+									"rgb",
+									"rgba",
+									"gray",
+									"hexa"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".scss",
+								"current_syntax": "SCSS/SCSS",
+								"enabled": true,
+								"last_updated": 1582273379.55,
+								"scan_completion_scopes":
+								[
+									"source.scss"
+								],
+								"scan_scopes":
+								[
+									"source.scss -comment -string"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/redux/authReducer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1302,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								821,
+								821
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/redux/dialogsReducer.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/api/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1504,
+								1543
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 341.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/components/Profile/MyPosts/MyPosts.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/redux/profileReducer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2097,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1425,
+								1425
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "JavaScript/JavaScript",
+								"enabled": false,
+								"last_updated": 1582357861.66
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 924.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "src/components/Dialogs/DialogsContainer.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1251,
+								1251
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jsx",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582273379.55
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"color_helper.box_height": 22,
+							"color_helper.color_scheme": "Monokai.sublime-color-scheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".js",
+								"current_syntax": "Babel/JavaScript (Babel)",
+								"enabled": false,
+								"last_updated": 1582195975.82
+							},
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 151.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "react-project.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 380.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

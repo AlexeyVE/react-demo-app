@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import { connect } from 'react-redux'
-import { isAuth } from '../../redux/authReducer'
+import { isAuth, logout } from '../../redux/authReducer'
 
 
  class HeaderContainer extends React.Component {
@@ -11,20 +11,21 @@ import { isAuth } from '../../redux/authReducer'
   } 
   render () {
     return (
-      <Header { ...this.props } 
+      <Header logout ={ this.props.logout } 
               login = { this.props.login } 
-              isAuth = { this.props.isAuth } />
+              isAuth = { this.props.isAuthUser } />
       )
   }
 }
 
 const mapStateToProps = ( state ) => {
   return {
-    isAuth: state.auth.isAuth,
+    isAuthUser: state.auth.isAuth,
     login: state.auth.login
   }
 }
 const mapDispatchToProps = {
-  isAuth
+  isAuth,
+  logout
 }
 export default connect(mapStateToProps, mapDispatchToProps)( HeaderContainer )

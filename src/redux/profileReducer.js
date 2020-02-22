@@ -1,10 +1,8 @@
 import { profileAPI } from '../api/'
 
-const ADD_POST = 'ADD-POST'
-const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT'
-const GET_USER_PROFILE = 'GET-USER-PROFILE'
-const SET_STATUS = 'GET-STATUS'
-const EDIT_STATUS = 'EDIT-STATUS'
+const ADD_POST = 'ADD_POST'
+const GET_USER_PROFILE = 'GET_USER_PROFILE'
+const SET_STATUS = 'GET_STATUS'
 
 let initialState = {
       posts: [
@@ -14,28 +12,16 @@ let initialState = {
         { id:4, message:'Id voluptate commodo incididunt', likesCount:5 },
         { id:5, message:'Id voluptate commodo incididunt', likesCount:5 }
       ],
-      newPostText: undefined,
       profile : undefined,
       status : undefined
-
 }
 
 const profileReducer = ( state = initialState , action ) => {
   switch ( action.type ) {
-    case UPDATE_NEW_POST_TEXT: 
-      return { ...state,newPostText: action.newText }
-    case ADD_POST: {
-      let stateCopy = {...state}
-      stateCopy.posts = [...state.posts]
-      let newPost = {
-        id: 6,
-        message: stateCopy.newPostText ,
-        likesCount: 5
-      }
-      stateCopy.posts.push( newPost )
-      stateCopy.newPostText = ''
-    return stateCopy 
-    }
+    case ADD_POST:
+    let newPost = action.postBody
+    return { ...state, 
+                posts: [...state.posts, { id: 6, message: newPost } ] } 
     case GET_USER_PROFILE: 
       return { ...state, profile: action.profile }
     case SET_STATUS:
@@ -43,6 +29,10 @@ const profileReducer = ( state = initialState , action ) => {
     default : return state  
   }
 }
+
+
+export const addPostCreator = ( postBody ) => ({ type: ADD_POST, postBody })
+
 const setStatusCreator = ( status ) => ({ type: SET_STATUS, status })
 
 export const getStatus = userId =>  dispatch => {

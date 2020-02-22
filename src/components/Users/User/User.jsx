@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import EmptyPhoto from '../../common/EmptyPhoto/'
 import style from './user.module.scss'
-import axios from 'axios'
+/*import axios from 'axios'*/
 import { usersAPI } from '../../../api/'
 
 const User = ( props ) => {

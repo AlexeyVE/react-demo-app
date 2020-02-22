@@ -2,15 +2,15 @@ import { usersAPI } from '../api/'
 
 const FOLLOW = 'FOLLOW'
 const UNFOLLOW = 'UNFOLLOW'
-const GET_USERS = 'GET-USERS'
-const SET_CURRENT_PAGE = 'SET-CURRENT-PAGE'
-const GET_USERS_COUNT = 'GET-USERS-COUNT'
-const TOGGLE_LOADER = 'TOGGLE-LOADER'
-const TOGGLE_IN_PROGRESS = 'TOGGLE-IN-PROGRESS'
+const GET_USERS = 'GET_USERS'
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE'
+const GET_USERS_COUNT = 'GET_USERS_COUNT'
+const TOGGLE_LOADER = 'TOGGLE_LOADER'
+const TOGGLE_IN_PROGRESS = 'TOGGLE_IN_PROGRESS'
 
 let initialState = {
   users: [],
-  pageSize: 50,
+  pageSize: 75,
   totalUsersCount: 0,
   currentPage: 1,
   isFetching: false,
@@ -20,7 +20,7 @@ let initialState = {
 const usersReducer = ( state = initialState, action ) => {
   switch ( action.type ) {
     case GET_USERS : 
-    return { ...state,users:action.users }
+    return { ...state, users: action.users }
     case FOLLOW :
     return { 
       ...state,

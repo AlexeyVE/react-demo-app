@@ -42,9 +42,15 @@ export const profileAPI = {
   }
 }
 export const authAPI = {
-  isAuth: () => {
-    return instance.get( '/auth/me' ).then( res => res.data )
+  me: () => {
+    return instance.get( '/auth/me' )
   },
+  login: ( email, password, reMe = false ) => {
+    return instance.post( '/auth/login', { email, password, reMe } )
+  },
+  logout: () => {
+    return instance.delete( '/auth/login' )
+  }
 }
 
 

@@ -1,16 +1,13 @@
 import React from "react"
 import Post from "./Post/Post"
+import AddPostForm from './Post/AddPostForm'
 
-const MyPosts = ( props ) => {
-  let newPostElement = React.createRef()
-  let onAddPost = () => { 
-    props.addPost()
-  }
+const MyPosts =  ( props )  => {
 
-  let onPostChange = () => {
-    let text = newPostElement.current.value 
-    props.updateNewPostText( text )
-  }                                             
+  let addNewPost =  ( val )  => {
+    props.addPost( val.postBody )
+  }  
+
   let postsElements = props.posts.map( ( post,index ) => 
                                   <Post
                                     message = { post.message }
@@ -21,16 +18,7 @@ const MyPosts = ( props ) => {
   return (
       <div className = "posts">
         <div className = "add-new-post">
-          <textarea placeholder = 'new post text'
-                    onChange = { onPostChange } 
-                    ref = { newPostElement } 
-                    value = { props.newPostText }
-          />
-          <div>
-            <button onClick = { onAddPost }>
-              Add post
-            </button>
-          </div>  
+          <AddPostForm onSubmit = { addNewPost } /> 
         </div>
         <h4>Posts</h4>
         { postsElements }

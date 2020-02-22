@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import HeaderContainer from './components/Header/HeaderContainer';
 import Nav from './components/Nav/Nav';
 import Profile from './components/Profile/Profile';
@@ -12,7 +12,8 @@ import { Route } from 'react-router-dom';
 
 // import './App.css';
 
-function App( props ) {  
+class App extends Component {
+ render() {  
   return (
     <div className = "app-wrapper">
       <HeaderContainer />
@@ -28,7 +29,7 @@ function App( props ) {
       <Route path = "/music" component = { Music } />
       <Route path = "/settings" component = { Settings } />
     </div>
-  );
+    )
+  }
 }
-
 export default App

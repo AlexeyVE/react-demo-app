@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './Dialogs.module.css';
 import Dialogs from './Dialogs'
+import { addMessageCreator} from '../../redux/dialogsReducer'
 import { connect } from 'react-redux'
 import { compose } from 'redux'
 import { AuthRedirect } from '../common/AuthRedirect/'
@@ -30,10 +31,6 @@ import { AuthRedirect } from '../common/AuthRedirect/'
 //              addMessage = { addMessage } />
 //   ) 
 // }
-let addMessageCreator = () => ( { type:'ADD-MESSAGE' } )
-
-let updateNewMessageCreator = ( text ) => 
-    ( { type : 'UPDATE-NEW-MESSAGE-TEXT', newText : text } )
 
 
 let mapStateToProps = ( state ) => {
@@ -44,14 +41,12 @@ let mapStateToProps = ( state ) => {
 }
 let mapDispatchToProps = ( dispatch ) => {
   return {
-    addMessage : () => {
-      let action = addMessageCreator ()
-      dispatch( action )
+    addMessage : ( newMsgBody ) => {
+      dispatch( addMessageCreator ( newMsgBody ))
    },
-    changeMessageText : ( text ) => {
-      let action = updateNewMessageCreator( text )
-      dispatch (action)
-    }       
+    // changeMessageText : ( newMsgBody ) => {
+    //   dispatch ( updateNewMessageCreator( newMsgBody ))
+    // }       
   }
 }
 export default compose(connect( mapStateToProps,mapDispatchToProps ),

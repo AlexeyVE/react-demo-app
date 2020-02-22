@@ -2,18 +2,23 @@ import React from 'react'
 import style from './Dialogs.module.css'
 import DialogItem from'./Dialog/DialogItem'
 import Message from'./Message/Message'
-import { Redirect } from 'react-router-dom'
-import AuthRedirect from '../common/AuthRedirect/'
+// import { Redirect } from 'react-router-dom'
+// import AuthRedirect from '../common/AuthRedirect/'
+import MessageForm from './Message/MessageForm'
+
 const Dialogs = ( props ) => {
-
-  let newMessageText = React.createRef()
-
-  let onChangeMessage = () => {
-    let text = newMessageText.current.value
-    props.changeMessageText( text )
+  
+  let addMessage = ( val ) => {
+    props.addMessage( val.msgBody )
   }
 
-  let onAddMessage = () => props.addMessage()
+  // let newMessageText = React.createRef()
+
+  // let onChangeMessage = () => {
+  //   let text = newMessageText.current.value
+  //   props.changeMessageText( text )
+  // }
+  // let onAddMessage = () => props.addMessage()
 
   let dialogsElements = props.dialogsPage.dialogs.map( ( dialog,index ) => 
                                       <DialogItem 
@@ -37,16 +42,9 @@ const Dialogs = ( props ) => {
     <div className = { style.messages }>
       { messagesElements }
       <div>
-        <div>
-          <textarea placeholder = 'new message text'
-                    onChange = { onChangeMessage } 
-                    ref = { newMessageText } 
-                    value = { props.dialogsPage.newMessageText }
-          />
-        </div> 
-        <button onClick = { onAddMessage }>add message</button>
-      </div> 
-    </div>
+        <MessageForm onSubmit = { addMessage } /> 
+      </div>
+    </div>    
   </div>
   );
 }
